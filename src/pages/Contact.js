@@ -1,21 +1,21 @@
 import React from "react";
 import Navbar from "../components/Navbar"
-import Contact from "../components/ContactCard"
+import ContactCard from "../components/ContactCard"
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom";
 
 
-class About extends React.Component {
+class Contact extends React.Component {
 
   render() {
     return (
       <>
       <Navbar/>
-      <Contact/>
+      <ContactCard/>
       <Footer/>
       </>
     );
   }
 }
 
-export default About;
+export default Contact;

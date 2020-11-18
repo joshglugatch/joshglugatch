@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 import { Link } from "react-router-dom";
 
 
-class About extends React.Component {
+class Portfolio extends React.Component {
 
   render() {
     return (
@@ -18,4 +18,4 @@ class About extends React.Component {
   }
 }
 
-export default About;
+export default Portfolio;

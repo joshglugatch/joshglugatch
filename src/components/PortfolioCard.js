@@ -2,7 +2,7 @@ import React from "react";
 import Projects from "../projects.json"
 
 
-function Navbar() {
+function PortfolioCard() {
   return (
     <main className="container-fixed mt-4 mb-4">
         <br />
@@ -40,6 +40,6 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default PortfolioCard;
 
 
