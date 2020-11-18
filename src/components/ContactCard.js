@@ -19,20 +19,20 @@ function AboutCard() {
           <hr />
           <section>
             {/* begin form */}
-            <form>
+            <form action="mailto:joshglugatch@gmail.com" method="post" encType="multipart/form-data" name="EmailForm">
               <article className="form-group">
                 <label htmlFor="exampleFormControlInput1">Name</label>
-                <input type="text" className="form-control" placeholder="Name" />
+                <input name="name" type="text" className="form-control" placeholder="Name" />
               </article>
               <article className="form-group">
                 <label htmlFor="exampleFormControlInput1">Email address</label>
-                <input type="email" className="form-control" placeholder="Email" />
+                <input name="email" type="email" className="form-control" placeholder="Email" />
               </article>
               <article className="form-group">
                 <label htmlFor="exampleFormControlTextarea1">Message</label>
-                <textarea className="form-control" style={{overflowY: 'scroll', height: '115px', resize: 'none'}} rows={6} defaultValue={""} />
+                <textarea name="message" className="form-control" style={{overflowY: 'scroll', height: '115px', resize: 'none'}} rows={6} defaultValue={""} />
               </article>
-              <button type="button" className="btn btn-primary btn-lg" style={{backgroundColor: 'black'}}>Submit</button>
+              <button type="submit" value="submit" className="btn btn-primary btn-lg" style={{backgroundColor: 'black'}}>Submit</button>
             </form>
             {/* end form */}
           </section>
