@@ -1,0 +1,39 @@
+[
+    {
+        "title":"PetSpace",
+        "image":"./assets/FilteredPets.gif",
+        "repo":"https://github.com/joshglugatch/PetSpace",
+        "deploy":"https://petspace2020.herokuapp.com/"
+    },
+    {
+        "title":"o'Clocktail",
+        "image":"./assets/oclocktaildemo.png",
+        "repo":"https://github.com/joshglugatch/o-clocktail",
+        "deploy":"https://joshglugatch.github.io/o-clocktail/"
+    },
+    {
+        "title":"Eat-Da-Burger",
+        "image":"./assets/eat-da-burger-screenshot.png",
+        "repo":"https://github.com/joshglugatch/Eat-Da-Burger",
+        "deploy":"https://eat-da-burger-yum.herokuapp.com/"
+    },
+    {
+        "title":"Avatar Memory Game",
+        "image":"./assets/clickgamedemo.gif",
+        "repo":"https://github.com/joshglugatch/Team-Avatar-Clicky-Game",
+        "deploy":"https://joshglugatch.github.io/Team-Avatar-Clicky-Game/"
+    },
+    {
+        "title":"Weather Dashboard",
+        "image":"./assets/weatherdemo.png",
+        "repo":"https://github.com/joshglugatch/weather-dashboard-page",
+        "deploy":"https://joshglugatch.github.io/weather-dashboard-page/"
+    },
+    {
+        "title":"Day Planner",
+        "image":"./assets/dayscheduledemo.png",
+        "repo":"https://github.com/joshglugatch/day-planner",
+        "deploy":"https://joshglugatch.github.io/day-planner/"
+    }
+    
+]
