@@ -3,7 +3,7 @@
 
 Welcome to my portfolio! On my page you will find some info about me and the projects I have worked on so far. This portfolio is build using React.js. Read my About Me to get to know me, and check out the Portfolio tab to see my work. I am excited to call myself a full stack developer with both front end and back end experience. You will also find a contact page with my email and phone number. The page is fully responsive for mobile devices as well (but some of the projects may not be supported on mobile devices yet).
 
-![demogif](./public/assets/portfoliodemo.gif)
+![demogif](./reactportfolio.gif)
 
 <br>
 
