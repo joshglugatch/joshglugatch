@@ -9,7 +9,8 @@ Welcome to my portfolio! On my page you will find some info about me and the pro
 
 # Built With:
 * HTML 
-* CSS 
+* CSS/Bootstrap 
+* JavaScript/JSX
 * React.js
 * React Router
 * React-Spring
