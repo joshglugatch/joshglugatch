@@ -1,24 +1,42 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, useLocation} from "react-router-dom";
+import {useTransition, animated } from "react-spring"
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Porfolio";
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+
 
 
 
 
 function App() {
+  const location = useLocation()
+  const transitions = useTransition(location, location => location.pathname, {
+    from:{ opacity : 0, transform: "translate(100%,0)"},
+    enter:{opacity : 1, transform: "translate(0%,0)"},
+    leave:{opacity : 0, transform: "translate(-50%,0)"}
+  })
   return (
-    <Router>
+    
+    <>
+      <Navbar/>
       <div>
-       
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-        </Switch>
+       {transitions.map(({item,props,key})=> (
+         <animated.div key={key} style={props}>
+           <Switch location={item}>
+              <Route exact path="/" component={About} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/contact" component={Contact} />
+          </Switch>
+         </animated.div>
+       ))}
+        
       </div>
-    </Router>
+      <Footer/>
+    </>
+    
   );
 }
 

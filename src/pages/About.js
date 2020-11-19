@@ -10,9 +10,11 @@ class About extends React.Component {
   render() {
     return (
       <>
-      <Navbar/>
+      <div className="position-absolute w-100">
       <AboutCard/>
-      <Footer/>
+      </div>
+      
+      
       </>
     );
   }

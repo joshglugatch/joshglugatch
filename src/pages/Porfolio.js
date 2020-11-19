@@ -10,9 +10,11 @@ class Portfolio extends React.Component {
   render() {
     return (
       <>
-      <Navbar/>
-      <PortfolioCard/>
-      <Footer/>
+      <div className="position-absolute w-100">
+        <PortfolioCard/>
+      </div>
+     
+     
       </>
     );
   }
