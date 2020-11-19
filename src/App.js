@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, useLocation} from "react-router-dom";
+import {Route, Switch, useLocation} from "react-router-dom";
 import {useTransition, animated } from "react-spring"
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -27,6 +27,7 @@ function App() {
          <animated.div key={key} style={props}>
            <Switch location={item}>
               <Route exact path="/" component={About} />
+              <Route exact path="/about" component={About} />
               <Route exact path="/portfolio" component={Portfolio} />
               <Route exact path="/contact" component={Contact} />
           </Switch>

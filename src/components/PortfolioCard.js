@@ -8,14 +8,14 @@ function PortfolioCard() {
         <br />
         <br />
         {/* grid begins */}
-        <section className="row">
+        <section className="row mt-4">
           <section className="col-sm-1" />
           <section className="col-sm-10">
-            <section className="container mt-5 mb-4 pb-1 pt-4 pl-4 pr-4 card border bg-white" style={{width: '100%', height: '96%'}}>
+            <section className="container mt-5 mb-4 pt-3 pl-4 pr-4 card border bg-white" style={{width: '100%'}}>
               <article className="row">
-                <h1 className="pl-3 mb-0" style={{fontWeight: 'bold', fontFamily: '"Bebas Neue"'}}>Portfolio</h1>
+                <h1 className="pl-3 mb-0 px-4" style={{fontWeight: 'bold', fontFamily: '"Bebas Neue"'}}>Portfolio</h1>
               </article>
-              <p style={{fontSize: '10px'}}>*Not all projects supported on mobile devices</p>
+              <p className="px-2" style={{fontSize: '10px'}}>*Not all projects supported on mobile devices</p>
               <hr />
               <section className="row mb-4">
 

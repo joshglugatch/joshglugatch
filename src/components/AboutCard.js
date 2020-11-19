@@ -11,10 +11,11 @@ function AboutCard() {
         {/* grid begins */}
         <section className="row">
           <section className="col-auto justify-content-center">
-            <section className="container mt-5 mb-5 p-5 card-body border bg-white" style={{width: '100%'}}>
+            <section className="container mt-5 mb-5 pr-5 pl-2 card-body border bg-white" style={{width: '100%'}}>
               <article className="row">
-                <h1 className="px-3" style={{fontWeight: 'bold', fontFamily: '"Bebas Neue"'}}>
+                <h1 className="px-5" style={{fontWeight: 'bold', fontFamily: '"Bebas Neue"'}}>
                   About Me</h1>
+                  <div className="ml-2"><img src="./assets/phone-black.png" alt="phone" style={{width: '30px'}} /> (805)217-8127<br /><a href="mailto: joshglugatch@gmail.com" style={{color: 'rgb(46, 46, 46)'}}><img src="./assets/email-black-3.png" alt="email" style={{width: '40px'}} /> joshglugatch@gmail.com </a></div>
               </article>
               <hr />
               <section className="row">
