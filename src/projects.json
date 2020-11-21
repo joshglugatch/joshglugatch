@@ -24,10 +24,10 @@
         "deploy":"https://joshglugatch.github.io/Team-Avatar-Clicky-Game/"
     },
     {
-        "title":"Weather Dashboard",
-        "image":"./assets/weatherdemo.png",
-        "repo":"https://github.com/joshglugatch/weather-dashboard-page",
-        "deploy":"https://joshglugatch.github.io/weather-dashboard-page/"
+        "title":"Google Books Search React",
+        "image":"https://github.com/joshglugatch/google-books-search/raw/main/assets/booksGif2.gif",
+        "repo":"https://github.com/joshglugatch/google-books-search",
+        "deploy":"https://googlelibrary-search.herokuapp.com/"
     },
     {
         "title":"Day Planner",
