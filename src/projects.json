@@ -1,5 +1,11 @@
 [
     {
+        "title":"JERONIVOSH Story Game",
+        "image":"https://github.com/joshglugatch/JERONIVOSH/raw/main/assets/gameplaygif.gif",
+        "repo":"https://github.com/joshglugatch/JERONIVOSH",
+        "deploy":"http://jeronivosh.herokuapp.com/"
+    },
+    {
         "title":"PetSpace",
         "image":"./assets/FilteredPets.gif",
         "repo":"https://github.com/joshglugatch/PetSpace",
@@ -10,12 +16,6 @@
         "image":"./assets/oclocktaildemo.png",
         "repo":"https://github.com/joshglugatch/o-clocktail",
         "deploy":"https://joshglugatch.github.io/o-clocktail/"
-    },
-    {
-        "title":"Eat-Da-Burger",
-        "image":"./assets/eat-da-burger-screenshot.png",
-        "repo":"https://github.com/joshglugatch/Eat-Da-Burger",
-        "deploy":"https://eat-da-burger-yum.herokuapp.com/"
     },
     {
         "title":"Avatar Memory Game",
