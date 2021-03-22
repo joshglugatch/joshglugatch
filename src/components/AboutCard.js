@@ -32,7 +32,7 @@ function AboutCard() {
                     I am an experienced musician and play many instruments. I also enjoy photography and videography. 
                     Check out my Instagram linked in the footer to see a little more about my music and photography.
                   </p>
-                  <a href="./assets/Glugatch-Resume.pdf" style={{color: 'rgb(46, 46, 46)', fontWeight: 'bold'}} target="_blank">Check out my resume.</a>
+                  <a href="./assets/JGResume3.22.21.pdf" style={{color: 'rgb(46, 46, 46)', fontWeight: 'bold'}} target="_blank">Check out my resume.</a>
                   <br />
                 </article>
               </section>
