@@ -22,11 +22,11 @@ function AboutCard() {
                 <figure className="col-md-6"><img src="./assets/profilepic.jpg" alt="Josh" className="img-thumbnail" style={{width: '350px', margin: 'auto', display: 'block'}} /></figure>
                 <article className="col-md-6">
                   <p>
-                    <strong>Thanks for visiting my portfolio webpage!</strong> My name is Josh and I am an aspiring web developer. I am currently enrolled in UC Berkeley's Coding Boot Camp for full stack web development. 
+                    <strong>Thanks for visiting my portfolio webpage!</strong> My name is Josh and I am a full stack web developer. I am a recent graduate of UC Berkeley's Coding Boot Camp for full stack web development. 
                     My recent projects can be found on the Portfolio page along with a deployed link and repository link. I primarily have experience with the MERN stack. I am a quick learner and have always excelled in whatever I put my mind to.
                     I live in the Los Angeles area but am willing to relocate. I graduated from UC Santa Barbara in 2017 with a BA in Global Studies. 
                     Since then I worked for almost 3 years for Warner Bros. Telepictures as a technical director/broadcast engineer for a film studio mostly working on DC Comics related content.
-                    I also worked as a foley artist for a feature called "Mine 9" and was voice talent for the feature "Sharknado 5: Global Swarming".
+                    I also worked as a foley artist for a feature called "Mine 9" and was voice talent for the feature "Sharknado 5: Global Swarming". Currently I am working as a broadcast engineer/operator for Blizzard Entertainment.
                     <br />
                     <br />
                     I am an experienced musician and play many instruments. I also enjoy photography and videography. 
